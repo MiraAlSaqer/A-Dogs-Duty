@@ -9,7 +9,7 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] private GameObject optionsCanvas;
 
     [Header("Scene Loading & Black Fade")]
-    [SerializeField] private string firstGameplaySceneName = "First Day";
+    [SerializeField] private string firstSceneName = "First Day";
     [SerializeField] private Image fadeScreen;
     [SerializeField] private float fadeDuration = 3.0f;
     [SerializeField] private CanvasGroup buttonGroup;
@@ -66,7 +66,7 @@ public class MainMenuManager : MonoBehaviour
         menuBGM.DOFade(0f, fadeDuration);
 
         yield return new WaitForSeconds(fadeDuration);
-        SceneManager.LoadScene(firstGameplaySceneName);
+        SceneManager.LoadScene(firstSceneName);
     }
 
     public void OnQuitButtonClicked()
