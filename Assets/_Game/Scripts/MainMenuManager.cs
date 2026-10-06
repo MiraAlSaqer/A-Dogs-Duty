@@ -8,7 +8,7 @@ public class MainMenuManager : MonoBehaviour
 {
     [SerializeField] private GameObject optionsCanvas;
 
-    [Header("Scene Loading & Black Fade")]
+    [Header("Scene Loading & Fading")]
     [SerializeField] private string firstSceneName = "First Day";
     [SerializeField] private Image fadeScreen;
     [SerializeField] private float fadeDuration = 3.0f;
