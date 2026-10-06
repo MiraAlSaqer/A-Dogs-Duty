@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/_Game/Scenes/MainMenu.unity
+    guid: b5d0ebf038269c4428a835c54235ffbd
+  - enabled: 1
+    path: Assets/_Game/Scenes/FirstDayMorning.unity
+    guid: 81ee5c850529eca4b8f11700573892ed
+  - enabled: 1
+    path: Assets/_Game/Scenes/FirstDayNight.unity
+    guid: b3731732570c70c4f80e8448c147ab98
+  - enabled: 1
+    path: Assets/_Game/Scenes/LastDay.unity
+    guid: cabd2de8d05510143a97e8f797a6bbad
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
